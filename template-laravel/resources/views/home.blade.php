@@ -108,7 +108,7 @@
         <div class="carousel-inner" role="listbox">
 
           <!-- Slide 1 -->
-          <div class="carousel-item active" style="background-image: {{url('assets/img/slide/slide-1.jpg')}};>
+          <div class="carousel-item active" style="background-image: url(' {{ url ('assets/img/slide/slide-1.jpg')}}');">
             <div class="carousel-container">
               <div class="carousel-content container">
                 <h2 class="animated fadeInDown">Welcome to <span>Mamba</span></h2>
@@ -119,7 +119,7 @@
           </div>
 
           <!-- Slide 2 -->
-          <div class="carousel-item" style="background-image: url('assets/img/slide/slide-2.jpg')}}');">
+          <div class="carousel-item" style="background-image: url(' {{ url ('assets/img/slide/slide-2.jpg')}}');">
             <div class="carousel-container">
               <div class="carousel-content container">
                 <h2 class="animated fadeInDown">Lorem Ipsum Dolor</h2>
@@ -130,7 +130,7 @@
           </div>
 
           <!-- Slide 3 -->
-          <div class="carousel-item" style="background-image: url('assets/img/slide/slide-3.jpg')}}');">
+          <div class="carousel-item" style="background-image: url(' {{ url ('assets/img/slide/slide-3.jpg')}}');">
             <div class="carousel-container">
               <div class="carousel-content container">
                 <h2 class="animated fadeInDown">Sequi ea ut et est quaerat</h2>
@@ -350,7 +350,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="{{ url ('assets/img/portfolio/portfolio-1.jpg')}}')}}" class="img-fluid" alt="">
+              <img src="{{ url ('assets/img/portfolio/portfolio-1.jpg')}}" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>App 1</h4>
                 <p>App</p>
@@ -364,12 +364,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="{{ url ('assets/img/portfolio/portfolio-2.jpg')}}')}}" class="img-fluid" alt="">
+              <img src="{{ url ('assets/img/portfolio/portfolio-2.jpg')}}" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Web 3</h4>
                 <p>Web</p>
                 <div class="portfolio-links">
-                  <a href="{{ url ('assets/img/portfolio/portfolio-2.jpg')}}')}}" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="icofont-eye"></i></a>
+                  <a href="{{ url ('assets/img/portfolio/portfolio-2.jpg')}}" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="icofont-eye"></i></a>
                   <a href="#" title="More Details"><i class="icofont-external-link"></i></a>
                 </div>
               </div>
@@ -378,12 +378,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="{{ url ('assets/img/portfolio/portfolio-3.jpg')}}')}}" class="img-fluid" alt="">
+              <img src="{{ url ('assets/img/portfolio/portfolio-3.jpg')}}" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>App 2</h4>
                 <p>App</p>
                 <div class="portfolio-links">
-                  <a href="{{ url ('assets/img/portfolio/portfolio-3.jpg')}}')}}" data-gall="portfolioGallery" class="venobox" title="App 2"><i class="icofont-eye"></i></a>
+                  <a href="{{ url ('assets/img/portfolio/portfolio-3.jpg')}}" data-gall="portfolioGallery" class="venobox" title="App 2"><i class="icofont-eye"></i></a>
                   <a href="#" title="More Details"><i class="icofont-external-link"></i></a>
                 </div>
               </div>
@@ -392,7 +392,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
-              <img src="{{ url ('assets/img/portfolio/portfolio-4.jpg')}}')}}" class="img-fluid" alt="">
+              <img src="{{ url ('assets/img/portfolio/portfolio-4.jpg')}}" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Card 2</h4>
                 <p>Card</p>

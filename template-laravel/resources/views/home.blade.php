@@ -20,10 +20,7 @@
 
   <!-- Vendor CSS Files -->
 
-  <link href="{{ url ('assets/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
   <link href="{{ url ('assets/vendor/icofont/icofont.min.css')}}" rel="stylesheet">
-  <link href="{{ url ('assets/vendor/boxicons/css/boxicons.min.css')}}" rel="stylesheet">
-  <link href="{{ url ('assets/vendor/animate.css/animate.min.css')}}" rel="stylesheet">
   <link href="{{ url ('assets/vendor/venobox/venobox.css')}}" rel="stylesheet">
   <link href="{{ url ('assets/vendor/aos/aos.css')}}" rel="stylesheet">
 

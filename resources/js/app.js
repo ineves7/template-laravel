@@ -1,8 +1,8 @@
 $ = jQuery = window.$ = window.jQuery = require('jquery');
 
-require('jquery/dist/jquery.min.js');
 require('bootstrap/dist/js/bootstrap.bundle.min.js');
 require('jquery.easing/jquery.easing.min.js');
+
 require('jquery-sticky/jquery.sticky.js');
 require('venobox/venobox/venobox.min.js');
 require('waypoints/lib/jquery.waypoints.min.js');

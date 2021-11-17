@@ -10,14 +10,7 @@ require('counterup/jquery.counterup.min.js');
 require('isotope-layout/dist/isotope.pkgd.min.js');
 require('aos/aos.js');
 
-/**
-* Template Name: Mamba - v2.0.1
-* Template URL: https://bootstrapmade.com/mamba-one-page-bootstrap-template-free/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-!(function($) {
-    "use strict";
+import AOS from 'aos';
 
     // Toggle .header-scrolled class to #header when page is scrolled
     $(window).scroll(function() {
@@ -179,38 +172,3 @@ require('aos/aos.js');
       duration: 1000,
       easing: "ease-in-out-back"
     });
-
-  })(jQuery);
-
-  window._ = require('lodash');
-
-/**
- * We'll load the axios HTTP library which allows us to easily issue requests
- * to our Laravel back-end. This library automatically handles sending the
- * CSRF token as a header based on the value of the "XSRF" token cookie.
- */
-
-window.axios = require('axios');
-
-window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
-
-/**
- * Echo exposes an expressive API for subscribing to channels and listening
- * for events that are broadcast by Laravel. Echo and event broadcasting
- * allows your team to easily build robust real-time web applications.
- */
-
-// import Echo from 'laravel-echo';
-
-// window.Pusher = require('pusher-js');
-
-// window.Echo = new Echo({
-//     broadcaster: 'pusher',
-//     key: process.env.MIX_PUSHER_APP_KEY,
-//     cluster: process.env.MIX_PUSHER_APP_CLUSTER,
-//     forceTLS: true
-// });
-
-
-
-

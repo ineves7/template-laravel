@@ -32,7 +32,7 @@
 <body>
 
 <!-- ======= Top Bar ======= -->
-<section id="topbar" class="d-none d-lg-block">
+<section id="topbar" class="d-none d-lg-block">  
     <div class="container clearfix">
         <div class="contact-info float-start">
             <i class="icofont-envelope"></i><a href="mailto:contact@example.com">contact@example.com</a>

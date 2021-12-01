@@ -8,7 +8,7 @@ require('venobox/venobox/venobox.min.js');
 require('waypoints/lib/jquery.waypoints.min.js');
 require('counterup/jquery.counterup.min.js');
 require('isotope-layout/dist/isotope.pkgd.min.js');
-require('aos/aos.js');
+require('aos/dist/aos.js');
 
 import AOS from 'aos';
 

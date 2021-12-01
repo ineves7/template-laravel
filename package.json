@@ -238,5 +238,13 @@
     "waypoints": "^4.0.1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ineves7/template-laravel.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ineves7/template-laravel/issues"
+  },
+  "homepage": "https://github.com/ineves7/template-laravel#readme"
 }
